@@ -5,7 +5,9 @@ body{
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
-
+.fondo{
+    background: linear-gradient(90deg,rgb(71, 3, 51)0%,rgba(29,30,31,1)100%);
+}
 
 
 
