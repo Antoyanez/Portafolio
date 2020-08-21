@@ -3,34 +3,88 @@ body{
 
 }
 
-.raleway{
+.raleway {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
-.fondo{
-    background: linear-gradient(90deg,rgb(212, 230, 241)0%,rgba(28, 40, 51)100%);
+
+.rale {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
 }
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.3;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fondo {
+    background: linear-gradient(90deg,rgb(147, 205, 241)0%,rgb(23, 46, 68)100%);
+}
+
 .carousel img {
     padding-top: 50px;
     max-height: 100%;
     max-width: 100%;
 }
 
-.linea{
+.linea {
     width: 50%;
     color: rgb(243, 231, 231);
 }
 
 .info {
-   margin-top: -88px;
+   margin-top: -40px;
     position: absolute;
     z-index: 1;
     color: #DFDCE3;
     text-shadow: 2px 2px 1px #532d2d;
-    background-color: #FC4A1A;
+    background-color: #042a4e;
     opacity: 0.8;
-    }
-    .fondo2{
-        background: #c28f28;
-        opacity: 0.8;
+}
 
-    }
+.fondo2 {
+    background: #c28f28;
+    opacity: 0.8;
+}
+
+footer i {
+    margin: 10px 10px;
+    color: #fff;
+}
+
+footer i:hover {
+    color: #5a1010;      
+}
+  
