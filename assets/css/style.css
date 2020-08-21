@@ -1,19 +1,32 @@
 body{
     font-family: 'Roboto', sans-serif;
+
 }
 
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
 .fondo{
-    background: linear-gradient(90deg,rgb(71, 3, 51)0%,rgba(29,30,31,1)100%);
+    background: linear-gradient(90deg,rgb(212, 230, 241)0%,rgba(28, 40, 51)100%);
+}
+.carousel img {
+    padding-top: 50px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
-footer i {
-    margin: 0px 10px;
-    color: #fff;
-}
-footer i:hover {
-    color: #9d97a7;
-   
+
+.info {
+   margin-top: -88px;
+    position: absolute;
+    z-index: 1;
+    color: #DFDCE3;
+    text-shadow: 2px 2px 1px #532d2d;
+    background-color: #FC4A1A;
+    opacity: 0.8;
+    }
+    .fondo2{
+        background: #c28f28;
+        opacity: 0.8;
+
     }
